@@ -1,0 +1,64 @@
+{
+  "title": "Christmas 2026",
+  "updated": "2026-11-01",
+  "people": [
+    {
+      "id": "thor",
+      "name": "Thor",
+      "deck": "decks/thor/",
+      "theme": "Moose",
+      "coordinator": "Colleen",
+      "prices_as_of": "2026-10-30",
+      "gifts": [
+        {"slide": 2, "gift": "Region 4 Flamingo Fob", "detail": "Round pink flamingo medallion for his lanyard, Region 4 theme", "price_text": "Homemade", "price": null, "homemade": true, "links": [], "note": "A daughter 3D-prints it (about $1 of filament)."},
+        {"slide": 3, "gift": "Pink PLA Filament", "detail": "Prusament PLA Blend, Ms. Pink, 1 kg spool", "price": 29.99, "links": [{"label": "Prusa", "url": "https://www.prusa3d.com/product/prusament-pla-blend-ms-pink-1kg-nfc/"}]},
+        {"slide": 4, "gift": "RV Levelers", "detail": "Lynx Levelers 10-pack, square interlocking orange blocks (not curved Andersen style)", "price": 39, "price_text": "About $39", "links": [{"label": "Walmart", "url": "https://www.walmart.com/ip/Tri-Lynx-RV-Levelers-10pk/16778427"}]},
+        {"slide": 5, "gift": "Prusa INDX 8-Tool Kit", "detail": "Toolchanger kit, 8 tools / 8 colors (written “NDXI” on the list)", "price": 925, "price_hi": 1049, "links": [{"label": "Prusa", "url": "https://www.prusa3d.com/product/indx-8-tool-conversion-kit-for-core-one/"}], "note": "Kits differ by printer generation and Thor's CORE One+ is the original, not Gen 2. Have the coordinator confirm the right kit. Ships after Feb 2027."},
+        {"slide": 6, "gift": "Where to Eat Pizza", "detail": "Daniel Young, Phaidon, hardcover", "price": 29.95, "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/0714871168"}]},
+        {"slide": 7, "gift": "Drift Wood Car Scents", "detail": "Starter kit (wood block + visor clip), Teak; 3-pack (Amber, Teak, Pine) about $31 at Grove", "price": 12.99, "price_text": "$12.99 each", "links": [{"label": "Target", "url": "https://www.target.com/p/drift-car-air-freshener-wood-starter-set-teak-scent/-/A-90412792"}]},
+        {"slide": 8, "gift": "AutoBrush Sonic Pro", "detail": "U-shaped sonic brush bundle; ADA-Accepted", "price": 89.99, "price_hi": 99, "links": [{"label": "AutoBrush", "url": "https://tryautobrush.com/products/autobrush-pro-bundle"}], "note": "$99 at AutoBrush, $89.99 at Target."},
+        {"slide": 9, "gift": "Airstream Atlas 25RT", "detail": "Touring coach; must have Advanced Power Plus (17.2 kWh lithium)", "price": 335000, "price_hi": 355000, "price_text": "About $335K–$355K", "priority": "Dream", "dream": true, "links": [{"label": "Airstream", "url": "https://www.airstream.com/touring-coaches/atlas-25rt/floorplans/25rt"}]}
+      ],
+      "extras_title": "Still on the 2025 list",
+      "extras": [
+        {"slide": 10, "group": "The Rizz", "gift": "Battery-heated seat warmer for camping chairs", "price_text": "~$70"},
+        {"slide": 10, "group": "The Rizz", "gift": "Any cool silver coin"},
+        {"slide": 10, "group": "The Rizz", "gift": "Amazon gift card (or Kindle card)"},
+        {"slide": 10, "group": "The Rizz", "gift": "Apple Store gift card"},
+        {"slide": 10, "group": "The Rest", "gift": "L.L.Bean wool socks", "price_text": "~$20–$25"},
+        {"slide": 10, "group": "The Rest", "gift": "Tommy Bahama IslandZone shirts, XL", "price_text": "~$100–$150"},
+        {"slide": 10, "group": "The Rest", "gift": "Any cool pocket knife"},
+        {"slide": 10, "group": "Online", "gift": "Thor's Amazon wish list", "links": [{"label": "Amazon", "url": "https://www.amazon.com/hz/wishlist/ls/ITZWKNNEYFQ6?ref_=wl_share"}]}
+      ]
+    },
+    {
+      "id": "colleen",
+      "name": "Colleen",
+      "deck": "decks/colleen/",
+      "theme": "Snow-Woman",
+      "coordinator": "Thor",
+      "prices_as_of": "2026-10-30",
+      "gifts": [
+        {"slide": 2, "gift": "Magnetic Measuring Spoons", "detail": "BIDFUL stainless double-ended set with leveler", "price": 7.99, "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/B0B39JNFQ7"}]},
+        {"slide": 3, "gift": "Airstream Door Mat", "detail": "Lobster Rope Mat, Atlantic Stripe, 30×17 in, door-step size", "price": 65.95, "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/B0GVW218T2"}]},
+        {"slide": 4, "gift": "Garden Kneeling Stool", "detail": "TomCare folding kneeler/seat with tool pouches", "price": 59.99, "links": [{"label": "Amazon", "url": "https://www.amazon.com/TomCare-Garden-Kneeler-Kneeling-Sturdy/dp/B073ZBKN1Y"}], "note": "Often on sale."},
+        {"slide": 5, "gift": "Weed Torch", "detail": "Sondiko propane weed burner, 30 in wand", "price": 26.45, "links": [{"label": "Amazon", "url": "https://www.amazon.com/Sondiko-Propane-Flamethrower-Control-Trigger/dp/B0CMLHMLB9"}], "note": "Propane cylinder not included."},
+        {"slide": 6, "gift": "Ball Complete Book of Home Preserving", "detail": "400 recipes, updated edition, paperback", "price": 24.28, "links": [{"label": "Amazon", "url": "https://www.amazon.com/Ball-Complete-Book-Home-Preserving/dp/0778801314"}]},
+        {"slide": 7, "gift": "Canning Pot", "detail": "Fulgutonit 21.5 qt stainless, rack, lid, 6 tools", "price": 65.99, "links": [{"label": "Amazon", "url": "https://www.amazon.com/Fulgutonit-Canning-Supplies-Stainless-Beginner/dp/B0C6PWYB2S"}], "note": "Jars not included."},
+        {"slide": 8, "gift": "Microgreens Growing Kit", "detail": "ZestiGreens self-watering tray, mats and seeds", "price": 39.95, "links": [{"label": "Amazon", "url": "https://www.amazon.com/Microgreens-Growing-Kit-Self-Watering/dp/B095Z7QR9T"}]},
+        {"slide": 9, "gift": "Wine Aerator", "detail": "Vinturi V1010 with no-drip stand", "price": 23.86, "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/B000UPOJ5W"}]},
+        {"slide": 10, "gift": "Patricia Nash Tote", "detail": "Charline tote, Cavo tooled appliqué, distressed light tan", "price": 171.75, "price_text": "$171.75 (was $229)", "links": [{"label": "Patricia Nash", "url": "https://patricianashdesigns.com/products/charline-tote-cavo-tooled-applique-distressed-light-tan"}], "note": "Like the one she has, new pattern."},
+        {"slide": 11, "gift": "Mahjong Set, Mat & Racks", "detail": "Palm Beach Regency Club, 160 tiles; full kit = tiles, bag, mat, racks", "price": 348.63, "price_text": "$348.63 full kit", "links": [{"label": "Etsy", "url": "https://www.etsy.com/listing/4551491334/palm-beach-regency-club-american-mahjong"}], "note": "Tiles only $238. Confirm kit contents with the seller."},
+        {"slide": 12, "gift": "Tomato Towers", "detail": "Vego Garden MaxGrow 6-tier, 3-pack, ~7 ft", "price": 159.95, "links": [{"label": "Vego Garden", "url": "https://www.vegogarden.com/products/maxgrow-tomato-tower-6-tier-3-pack"}], "note": "Has been $139.95 on sale."},
+        {"slide": 13, "gift": "Learn-to-Crochet Kit", "detail": "The Woobles, Pierre the Penguin (Noel the Snow Wooble also $30)", "price": 30, "links": [{"label": "The Woobles", "url": "https://thewoobles.com/products/penguin-crochet-kit"}]},
+        {"slide": 14, "gift": "Dremel Multi-Max", "detail": "MM50-02 oscillating tool kit, 5 A, corded", "price": 128.99, "links": [{"label": "Amazon", "url": "https://www.amazon.com/dp/B0CZV2GP8Z"}]},
+        {"slide": 15, "gift": "Floral Area Rug", "detail": "August Grove Novara, brown, 9×12 ft", "price": 179.99, "price_text": "$179.99 (was $220)", "links": [{"label": "Wayfair", "url": "https://www.wayfair.com/rugs/pdp/august-grove-novara-vintage-style-flower-area-rug-w121694716.html?piid=152095616%2C152095617"}], "note": "Only 4 left on Oct 30."}
+      ]
+    },
+    {"id": "person3", "name": "Coming soon", "placeholder": true},
+    {"id": "person4", "name": "Coming soon", "placeholder": true},
+    {"id": "person5", "name": "Coming soon", "placeholder": true},
+    {"id": "person6", "name": "Coming soon", "placeholder": true},
+    {"id": "person7", "name": "Coming soon", "placeholder": true}
+  ]
+}
