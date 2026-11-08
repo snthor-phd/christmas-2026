@@ -164,9 +164,13 @@ tr.dream td{background:#FBF3DF}
 tr.home td.p{color:var(--muted)}
 h3{font:700 12px/1 'Nunito Sans',Arial,sans-serif;text-transform:uppercase;letter-spacing:.06em;color:var(--muted);margin:10px 0 2px}
 tr.x td{padding:3px 6px;font-size:13px}
-.grp{font-size:11.5px;color:var(--muted);white-space:nowrap;width:70px}
+.grp{font-size:11.5px;white-space:nowrap;width:76px}
+.grp a{color:var(--muted)}
 table.extras td.l:empty,table.extras td.r:empty{padding:0}
 .empty{color:var(--muted);font-size:13px;padding:6px 0}
+.dnb{margin:6px 0 2px;padding:5px 8px;background:#F8E3E1;border-left:3px solid var(--red);font-size:13px}
+.dnb b{color:var(--red)}
+.pnote{margin:4px 0 0;font-size:12.5px;color:var(--muted)}
 footer{margin-top:24px;font-size:12px;color:var(--muted);border-top:1px solid var(--rule);padding-top:8px}
 @media (max-width:640px){
  table,tbody,tr,td{display:block;width:auto}
@@ -194,6 +198,8 @@ footer{margin-top:24px;font-size:12px;color:var(--muted);border-top:1px solid va
  td.g .d,td.g .note,td.n,td.l,td.r,tr.x td{font-size:9.5px}
  td.l{width:120px} td.p{width:100px}
  tr{break-inside:avoid}
+ .dnb{-webkit-print-color-adjust:exact;print-color-adjust:exact;font-size:10px}
+ .pnote{font-size:9.5px}
  .ph{break-after:avoid}
  a{color:var(--green);text-decoration:none}
  tr.dream td{background:#FBF3DF;-webkit-print-color-adjust:exact;print-color-adjust:exact}
@@ -219,11 +225,12 @@ def extras_block(p):
     ex = p.get("extras")
     if not ex: return ""
     rows = "\n".join(
-        f'<tr class="x"><td class="grp">{E(x.get("group",""))}</td><td class="g">{E(x["gift"])}'
+        f'<tr class="x"><td class="grp"><a href="{p["deck"]}#{x["slide"]}">{E(x.get("group",""))}</a></td><td class="g">{E(x["gift"])}'
         f'{" — " + links_html(x.get("links")) if x.get("links") else ""}</td>'
         f'<td class="p">{E(x.get("price_text",""))}</td><td class="l"></td><td class="r"></td></tr>' for x in ex)
-    return (f'<h3>{E(p.get("extras_title","Also welcome"))} '
-            f'(<a href="{p["deck"]}#{ex[0]["slide"]}">slide {ex[0]["slide"]}</a>)</h3>'
+    slides = sorted({x["slide"] for x in ex})
+    sl = (f' (<a href="{p["deck"]}#{slides[0]}">slide {slides[0]}</a>)' if len(slides) == 1 else "")
+    return (f'<h3>{E(p.get("extras_title","Also welcome"))}{sl}</h3>'
             f'<table class="extras"><tbody>{rows}</tbody></table>')
 
 def person_block(p):
@@ -232,11 +239,18 @@ def person_block(p):
     excl = []
     if any(g.get("dream") for g in p["gifts"]): excl.append("dream gift")
     if any(g.get("homemade") for g in p["gifts"]): excl.append("homemade")
+    unpriced = sum(1 for g in p["gifts"] if g.get("price") is None and not g.get("dream") and not g.get("homemade"))
+    if unpriced: excl.append(f"{unpriced} unpriced")
     ex = f' <span>(excl. {", ".join(excl)})</span>' if excl else ""
+    dnb = (f'<p class="dnb"><b>Please don\'t buy:</b> {E(", ".join(p["do_not_buy"]))}'
+           f' (<a href="{p["deck"]}#{p.get("do_not_buy_slide","")}">slide {p.get("do_not_buy_slide","")}</a>)</p>'
+           if p.get("do_not_buy") else "")
+    intro = f'<p class="pnote">{E(p["note"])}</p>' if p.get("note") else ""
     return f"""<section class="person" id="{p['id']}">
 <div class="ph"><h2>{E(p['name'])}</h2><span class="who">Before buying, check with {E(p['coordinator'])}</span>
 <a class="deck" href="{p['deck']}">Open deck ›</a>
 <span class="tot">{n} gifts · {total_text(lo, hi)}{ex}</span></div>
+{dnb}{intro}
 <table><thead><tr><th>#</th><th>Gift</th><th class="p">Price</th><th>Shop</th><th>Priority</th></tr></thead>
 <tbody>{gift_rows(p)}</tbody></table>
 {extras_block(p)}
