@@ -1,10 +1,10 @@
 {
   "title": "Christmas 2026",
-  "updated": "2026-11-08",
+  "updated": "2026-11-20",
   "people": [
     {
       "id": "thor",
-      "name": "Thor",
+      "name": "Dad",
       "deck": "decks/thor/",
       "theme": "Moose",
       "coordinator": "Colleen",
@@ -57,7 +57,7 @@
               "url": "https://www.prusa3d.com/product/indx-8-tool-conversion-kit-for-core-one/"
             }
           ],
-          "note": "Kits differ by printer generation and Thor's CORE One+ is the original, not Gen 2. Have the coordinator confirm the right kit. Ships after Feb 2027."
+          "note": "Kits differ by printer generation and Dad's CORE One+ is the original, not Gen 2. Have the coordinator confirm the right kit. Ships after Feb 2027."
         },
         {
           "slide": 6,
@@ -158,7 +158,7 @@
         {
           "slide": 10,
           "group": "Online",
-          "gift": "Thor's Amazon wish list",
+          "gift": "Dad's Amazon wish list",
           "links": [
             {
               "label": "Amazon",
@@ -173,7 +173,7 @@
       "name": "Colleen",
       "deck": "decks/colleen/",
       "theme": "Snow-Woman",
-      "coordinator": "Thor",
+      "coordinator": "Dad",
       "prices_as_of": "2026-10-30",
       "gifts": [
         {
@@ -361,7 +361,7 @@
       "name": "Marissa",
       "deck": "decks/marissa/",
       "theme": "Scrapbook",
-      "coordinator": "Thor",
+      "coordinator": "Dad",
       "prices_as_of": "2026-11-08",
       "source": "Canva",
       "do_not_buy": [
@@ -654,9 +654,272 @@
       ]
     },
     {
-      "id": "person4",
-      "name": "Coming soon",
-      "placeholder": true
+      "id": "bree",
+      "name": "Bree",
+      "deck": "decks/bree/",
+      "theme": "Floral",
+      "coordinator": "Dad",
+      "prices_as_of": "2026-11-20",
+      "source": "Text list",
+      "do_not_buy": [
+        "DND things",
+        "Art prints",
+        "Ceramics",
+        "Books"
+      ],
+      "do_not_buy_slide": 8,
+      "note": "She sent a text list, so prices and links below are suggestions found Nov 20. She asks for clay and tools, so 'ceramics' means finished pieces; puzzle books are the one kind of book she wants. Clothing and bed sizes (other than the extra-large robe) aren't on her list, so check with the coordinator.",
+      "gifts": [
+        {
+          "slide": 2,
+          "gift": "Bombas Socks or Slippers",
+          "detail": "Socks ~$14/pair (3-pack $38); Gripper Slipper $50; Sunday Slipper $85",
+          "price": 14,
+          "price_hi": 85,
+          "links": [
+            {
+              "label": "Bombas",
+              "url": "https://bombas.com"
+            },
+            {
+              "label": "DSW",
+              "url": "https://www.dsw.com/brands/womens/bombas/shoes"
+            }
+          ],
+          "note": "Bombas slippers run snug: half sizes should size up."
+        },
+        {
+          "slide": 2,
+          "gift": "Soft Headbands",
+          "detail": "Florals or solid colors; fandom only if Brandon Sanderson or Dungeon Crawler Carl (DCC)",
+          "links": [
+            {
+              "label": "Etsy floral",
+              "url": "https://www.etsy.com/search?q=soft+floral+headband"
+            },
+            {
+              "label": "Etsy DCC",
+              "url": "https://www.etsy.com/search?q=dungeon+crawler+carl+headband"
+            },
+            {
+              "label": "Dragonsteel",
+              "url": "https://www.dragonsteelbooks.com"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "gift": "Loose Soft Pants (Torrid)",
+          "detail": "Super Soft Plush Wide-Leg Lounge Pant; Deep Black or Heather Grey",
+          "price": 25,
+          "price_text": "$25 (was $44.90)",
+          "links": [
+            {
+              "label": "Torrid",
+              "url": "https://www.torrid.com/product/super-soft-plush-wide-leg-lounge-pant/44230462.html"
+            }
+          ],
+          "note": "Torrid sizes run 00–6; size isn't on her list."
+        },
+        {
+          "slide": 2,
+          "gift": "Non-Fluffy Robe, Extra Large",
+          "detail": "Lightweight waffle knit, e.g. Target Auden waffle robe (1X/2X)",
+          "price": 35,
+          "links": [
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/-/A-90600288"
+            }
+          ],
+          "note": "Amazon Essentials' lightweight waffle robe (XS–7X) is another non-fluffy option."
+        },
+        {
+          "slide": 3,
+          "gift": "Hamilton at the Schuster Center",
+          "detail": "Dayton, Mar 30–Apr 11, 2027",
+          "price_text": "Resale from ~$194",
+          "links": [
+            {
+              "label": "Dayton Live",
+              "url": "https://www.daytonlive.org/events/hamilton/"
+            }
+          ],
+          "note": "Dayton Live is the only authorized seller for Schuster Center shows; buy there to avoid resale markups. Two tickets, since she wants to go with you."
+        },
+        {
+          "slide": 3,
+          "gift": "Waitress at the Schuster Center",
+          "detail": "Dayton, Jun 1–6, 2027",
+          "links": [
+            {
+              "label": "Dayton Live",
+              "url": "https://www.daytonlive.org/events/waitress/"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Taylor Tomlinson",
+          "detail": "Mershon Auditorium, Columbus, Fri Mar 19, 2027, 7 pm",
+          "price_text": "Resale from ~$73",
+          "links": [
+            {
+              "label": "Taylor Tomlinson",
+              "url": "https://taylortomlinsoncomedy.com"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Phantom of the Opera",
+          "detail": "Ohio Theatre, Columbus, May 12–23, 2027 (Broadway in Columbus)",
+          "links": [
+            {
+              "label": "Season",
+              "url": "https://www.broadwayworld.com/columbus/article/MAYBE-HAPPY-END-HELLS-KITCHEN-and-More-Set-For-Broadway-in-Columbus-2026-27-Season-20260331"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Wicked",
+          "detail": "Ohio Theatre, Columbus, Jul 28–Aug 15, 2027 (season option)",
+          "links": [
+            {
+              "label": "BroadwayWorld",
+              "url": "https://www.broadwayworld.com/columbus/regional/wicked-columbus-61290"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Hadestown",
+          "detail": "Aronoff Center, Cincinnati, May 14–16, 2027",
+          "price_text": "Resale from ~$75",
+          "links": [
+            {
+              "label": "Cincinnati Arts",
+              "url": "https://www.cincinnatiarts.org/events/detail/hadestown-27"
+            }
+          ],
+          "note": "Not in Columbus in 2027 (it played there May 2026); Cincinnati is the nearest 2027 stop."
+        },
+        {
+          "slide": 4,
+          "gift": "Box of Clay",
+          "detail": "Standard 112, Kentucky Mudworks White Bear, or Miller 910; 50 lb box",
+          "price": 38.5,
+          "price_hi": 68.5,
+          "links": [
+            {
+              "label": "Queen City Clay",
+              "url": "https://queencityclay.com"
+            },
+            {
+              "label": "112 ~$39",
+              "url": "https://www.walmart.com/ip/Standard-Clay-Company-112-Brown-Clay-50-lb/1724181191"
+            },
+            {
+              "label": "White Bear $68.50",
+              "url": "https://kruegerpottery.com/products/white-bear"
+            }
+          ],
+          "note": "Buy at her shops (Kiln Room, Columbus; Queen City Clay, Norwood) to skip freight on 50 lb. Couldn't find Miller 910 priced online; ask the shop."
+        },
+        {
+          "slide": 4,
+          "gift": "Sgraffito Tool Set",
+          "detail": "Xiem Sgraffito & Detailing set of 7 (double-ended)",
+          "price": 31,
+          "price_hi": 35,
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/s?k=xiem+sgraffito+detailing+set"
+            },
+            {
+              "label": "Blick",
+              "url": "https://www.dickblick.com/products/xiem-sgrafitto-detailing-set"
+            }
+          ]
+        },
+        {
+          "slide": 6,
+          "gift": "Dark Floral Duvet Cover",
+          "detail": "e.g. Lush Decor Fantasy Floral: moody botanicals on black, with 2 shams",
+          "price_text": "King ~$217 on sale",
+          "links": [
+            {
+              "label": "Kohl's",
+              "url": "https://www.kohls.com/product/prd-7718026/lush-decor-fantasy-floral-3-pc-duvet-cover-set.jsp"
+            },
+            {
+              "label": "Target",
+              "url": "https://www.target.com/p/-/A-94725835"
+            }
+          ],
+          "note": "Bed size isn't on her list; check with the coordinator."
+        },
+        {
+          "slide": 6,
+          "gift": "Large Soft Alpaca Blanket",
+          "detail": "Replacing her well-loved alpaca; oversized baby alpaca",
+          "price": 285,
+          "price_hi": 428,
+          "links": [
+            {
+              "label": "Alpaca Blankets 2 $285",
+              "url": "https://www.houzz.com/products/bedding/manufacturer--alpacablankets2--superiorcollection"
+            },
+            {
+              "label": "Graf Lantz $428",
+              "url": "https://graflantz.com/products/haus-alpaca-blanket"
+            }
+          ],
+          "note": "Most alpaca is dry-clean only."
+        },
+        {
+          "slide": 6,
+          "gift": "Nice Set of Pillows"
+        },
+        {
+          "slide": 7,
+          "gift": "Well-Designed Puzzle Books",
+          "detail": "Sudoku and word searches first; human-made, not computer- or AI-generated",
+          "price": 12.99,
+          "price_text": "From $12.99",
+          "links": [
+            {
+              "label": "Nikoli sudoku",
+              "url": "https://pageaday.com/products/the-biggest-bestest-book-of-sudoku"
+            },
+            {
+              "label": "Artisanal Sudoku",
+              "url": "https://www.hachettebookgroup.com/titles/james-sinclair/artisanal-sudoku/9781454964872/"
+            }
+          ],
+          "note": "Nikoli (sudoku's Japanese originator) hand-makes every puzzle; Artisanal Sudoku is 150 handcrafted grids. Still need a word-search pick."
+        }
+      ],
+      "extras_title": "Also on her list",
+      "extras": [
+        {
+          "slide": 3,
+          "group": "Night out",
+          "gift": "Cooking class, crafting class, or a foodie night out together"
+        },
+        {
+          "slide": 5,
+          "group": "Treats",
+          "gift": "Good bourbon"
+        },
+        {
+          "slide": 5,
+          "group": "Treats",
+          "gift": "Fine chocolates"
+        }
+      ]
     },
     {
       "id": "person5",
