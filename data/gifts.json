@@ -1,13 +1,13 @@
 {
   "title": "Christmas 2026",
-  "updated": "2026-11-20",
+  "updated": "2026-11-21",
   "people": [
     {
       "id": "thor",
       "name": "Dad",
       "deck": "decks/thor/",
       "theme": "Moose",
-      "coordinator": "Colleen",
+      "coordinator": "Mom",
       "prices_as_of": "2026-10-30",
       "gifts": [
         {
@@ -170,7 +170,7 @@
     },
     {
       "id": "colleen",
-      "name": "Colleen",
+      "name": "Mom",
       "deck": "decks/colleen/",
       "theme": "Snow-Woman",
       "coordinator": "Dad",
