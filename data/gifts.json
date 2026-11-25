@@ -1,6 +1,6 @@
 {
   "title": "Christmas 2026",
-  "updated": "2026-11-21",
+  "updated": "2026-11-25",
   "people": [
     {
       "id": "thor",
@@ -922,14 +922,310 @@
       ]
     },
     {
-      "id": "person5",
-      "name": "Coming soon",
-      "placeholder": true
+      "id": "nicole",
+      "name": "Nicole",
+      "deck": "decks/nicole/",
+      "theme": "Plaid",
+      "coordinator": "Dad",
+      "prices_as_of": "2026-11-25",
+      "source": "Canva",
+      "do_not_buy": [
+        "Mugs",
+        "Earrings",
+        "A puppy/dog",
+        "Books",
+        "Board games",
+        "Things that clutter the house"
+      ],
+      "do_not_buy_slide": 3,
+      "note": "Her deck mostly gives ideas, not products. The PixCut is the only link, so it's the only price. She names one book (the Renovaré Bible) despite \"no books,\" and asks for solo games despite \"no board games.\"",
+      "gifts": [
+        {
+          "slide": 5,
+          "gift": "Gaming PC",
+          "detail": "Not for her: for any or all of her sisters, so they can game together",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 6,
+          "gift": "Carpet cleaning service",
+          "detail": "Scheduled deep clean of the carpets",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 6,
+          "gift": "Maid service voucher",
+          "detail": "A few deep cleans",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 6,
+          "gift": "Spa service",
+          "detail": "Especially money toward a really good, really long massage",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 7,
+          "gift": "PixCut S1 photo sticker printer",
+          "detail": "Liene photo printer and sticker cutter; upgrade from her Sprocket. Starter Kit; bigger kits $322.99 and $346.99",
+          "price": 279.99,
+          "links": [
+            {
+              "label": "Liene",
+              "url": "https://www.liene-life.com/products/pixcut-s1-photo-sticker-printer-and-cutter"
+            }
+          ]
+        },
+        {
+          "slide": 7,
+          "gift": "3D printer",
+          "detail": "For her and John to make \"SUPER COOL THINGS\"",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 7,
+          "gift": "Mail-in hobby subscriptions",
+          "detail": "Sticker or letter subscriptions, sewing clubs",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 7,
+          "gift": "Classes",
+          "detail": "Sewing, photography, lettering or watercolor",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 8,
+          "gift": "Mechanical keyboard",
+          "detail": "Clicky-clacky; 75% or 80% with a number pad; must be hot-swappable",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 8,
+          "gift": "Keyboard switches",
+          "detail": "Clackier switches for her work keyboard",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 8,
+          "gift": "Kitchen organizers",
+          "detail": "Straw organizer that stays off the counter (cat hair, dust); pantry organizers",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 8,
+          "gift": "Kitchen extras",
+          "detail": "Extra air fryer basket tray for her Wonder Oven; more Ninja Creami containers",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Olive & June nail polish",
+          "detail": "Colors",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Necklaces",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Cat toys or cat hammock",
+          "detail": "Resting spot for McNab in her office",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Solo games",
+          "detail": "Games she can play alone instead of scrolling",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Good pens",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Renovaré Life with God Bible",
+          "detail": "Leatherbound; out of print (\"good luck\")",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 9,
+          "gift": "Tomoe River paper journal",
+          "price": null,
+          "links": []
+        }
+      ],
+      "extras_title": "Gifts of time and things you make",
+      "extras": [
+        {
+          "slide": 4,
+          "group": "Make",
+          "gift": "Art you've made (unframed art ban lifted)"
+        },
+        {
+          "slide": 4,
+          "group": "Make",
+          "gift": "3D-print something, like a straw organizer for inside a cupboard"
+        },
+        {
+          "slide": 4,
+          "group": "Time",
+          "gift": "Make her a meal at her house"
+        },
+        {
+          "slide": 4,
+          "group": "Time",
+          "gift": "Scheduled game nights, playing her favorite games"
+        },
+        {
+          "slide": 4,
+          "group": "Time",
+          "gift": "Movie marathon dates at her house"
+        },
+        {
+          "slide": 4,
+          "group": "Outing",
+          "gift": "Ohio Caverns, Loveland Castle, or thrifting"
+        }
+      ]
     },
     {
-      "id": "person6",
-      "name": "Coming soon",
-      "placeholder": true
+      "id": "john",
+      "name": "John",
+      "deck": "decks/john/",
+      "theme": "Aquarium",
+      "coordinator": "Dad",
+      "prices_as_of": "2026-11-25",
+      "source": "Canva",
+      "do_not_buy": [
+        "Donations to the new-office-chair fund (crossed out on his slide)"
+      ],
+      "do_not_buy_slide": 6,
+      "note": "His rule of thumb: consumables, gift cards (Steam, Micro Center, BJ's Brewhouse) and shared experiences. No links in his deck; book prices are list prices found Nov 25.",
+      "gifts": [
+        {
+          "slide": 5,
+          "gift": "Examination of the Council of Trent, Vol. III",
+          "detail": "Martin Chemnitz (Chemnitz's Works vol. 3), Concordia hardback",
+          "price": 107.61,
+          "price_text": "~$108 hardback",
+          "links": [
+            {
+              "label": "Blackwell's",
+              "url": "https://test.blackwells.co.uk/bookshop/product/Chemnitzs-Works-Volume-3-Examination-of-the-Council-of-Trent-III-by-Martin-Chemnitz/9780758675965"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "gift": "Heavy Duty (K.K. Downing)",
+          "detail": "Judas Priest guitarist's memoir, paperback",
+          "price": 17.99,
+          "links": [
+            {
+              "label": "Hachette",
+              "url": "https://www.hachettebookgroup.com/titles/k-k-downing/heavy-duty/9780306903304/"
+            }
+          ]
+        },
+        {
+          "slide": 5,
+          "gift": "Gotrek & Felix: The First Omnibus",
+          "detail": "William King, Black Library paperback",
+          "price": 21.0,
+          "links": [
+            {
+              "label": "Barnes & Noble",
+              "url": "https://www.barnesandnoble.com/w/gotrek-and-felix-william-king/1136792254"
+            }
+          ],
+          "note": "Out of stock at B&N online on Nov 25."
+        },
+        {
+          "slide": 3,
+          "gift": "Gift cards",
+          "detail": "Steam, Micro Center, BJ's Brewhouse or Outback",
+          "price": null,
+          "price_text": "Any amount",
+          "links": []
+        },
+        {
+          "slide": 4,
+          "gift": "Snacks",
+          "detail": "Old Bay chips, Buffalo Goldfish, pretzels",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 4,
+          "gift": "Drinks",
+          "detail": "Irn-Bru (British soda), birch beer, Malta India",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 4,
+          "gift": "Adult drinks",
+          "detail": "Schlenkerla Rauchbier, Sagamore Rye (cask strength is good), plum wine",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 4,
+          "gift": "Coffee",
+          "detail": "Beans from Poppets Coffee, or anything otherwise interesting",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 4,
+          "gift": "Fudge",
+          "detail": "\"Fudge. Also fudge.\"",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 6,
+          "gift": "Things for cats",
+          "detail": "Catnip, puzzle toys, scratchers",
+          "price": null,
+          "links": []
+        }
+      ],
+      "extras_title": "Also welcome",
+      "extras": [
+        {
+          "slide": 3,
+          "group": "Together",
+          "gift": "Shared experiences: invitations, game nights, getting out of the house"
+        },
+        {
+          "slide": 7,
+          "group": "Theme",
+          "gift": "Anything that reminds you of your favorite Cthulhu warlock"
+        }
+      ]
     },
     {
       "id": "person7",

@@ -1,0 +1,56 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="robots" content="noindex,nofollow"><link rel="stylesheet" href="../../assets/fonts.css"><title>Nicole · Nicole&#x27;s Christmas List</title><style>
+html,body{margin:0;height:100%;background:#0E2A20;overflow:hidden;font-family:'Nunito Sans',Arial,sans-serif}
+#stage{position:absolute;left:50%;top:50%;width:1920px;height:1080px;transform-origin:0 0}
+#stage>section{position:absolute;inset:0;width:1920px;height:1080px;box-sizing:border-box;overflow:hidden}
+#stage>section:not(.on){display:none!important}
+#stage section *{margin:0;box-sizing:border-box}
+#stage section aside{display:none}
+#bar{position:fixed;left:0;right:0;bottom:0;display:flex;align-items:center;gap:8px;padding:8px 12px;
+ background:rgba(14,42,32,.86);color:#F6EFE0;font-size:14px;z-index:5}
+#bar a,#bar button{color:#F6EFE0;background:none;border:1px solid rgba(246,239,224,.35);border-radius:6px;
+ padding:6px 12px;font:inherit;cursor:pointer;text-decoration:none}
+#bar button:disabled{opacity:.35;cursor:default}
+#count{min-width:64px;text-align:center}
+#notes{position:fixed;left:12px;right:12px;bottom:52px;max-height:30vh;overflow:auto;background:#FFFDF8;color:#12372A;
+ border-radius:10px;padding:12px 16px;font-size:15px;line-height:1.45;display:none;z-index:4;box-shadow:0 6px 24px rgba(0,0,0,.35)}
+#notes.on{display:block}
+.sp{flex:1}
+</style></head><body>
+<div id="stage"><section style="display:flex;background:#fff"><img src="slides/01.jpg" alt="Slide 1" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/02.jpg" alt="Slide 2" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/03.jpg" alt="Slide 3" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/04.jpg" alt="Slide 4" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/05.jpg" alt="Slide 5" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/06.jpg" alt="Slide 6" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/07.jpg" alt="Slide 7" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/08.jpg" alt="Slide 8" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/09.jpg" alt="Slide 9" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/10.jpg" alt="Slide 10" style="width:100%;height:100%;object-fit:contain"></section>
+<section style="display:flex;background:#fff"><img src="slides/11.jpg" alt="Slide 11" style="width:100%;height:100%;object-fit:contain"></section></div>
+<div id="notes"></div>
+<div id="bar"><a href="../../">&#8962; Home</a><a href="../../gift-list.html#nicole">Gift list</a><span class="sp"></span>
+<button id="prev" aria-label="Previous slide">&#8592;</button><span id="count"></span>
+<button id="next" aria-label="Next slide">&#8594;</button><span class="sp"></span><button id="nbtn">Notes</button></div>
+<script>
+const S=[...document.querySelectorAll('#stage>section')],st=document.getElementById('stage'),
+ cnt=document.getElementById('count'),nt=document.getElementById('notes');
+let i=0;
+document.querySelectorAll('#stage a[href]').forEach(a=>{a.target='_blank';a.rel='noopener'});
+function fit(){const barH=52,w=innerWidth,h=innerHeight-barH,s=Math.min(w/1920,h/1080);
+ st.style.transform=`translate(${-960*s}px,${-540*s-barH/2}px) scale(${s})`}
+function show(n){i=Math.max(0,Math.min(S.length-1,n));S.forEach((x,k)=>x.classList.toggle('on',k===i));
+ cnt.textContent=(i+1)+' / '+S.length;document.getElementById('prev').disabled=i===0;
+ document.getElementById('next').disabled=i===S.length-1;
+ const a=S[i].querySelector('aside');nt.textContent=a?a.textContent:'No notes on this slide.';
+ history.replaceState(null,'','#'+(i+1))}
+document.getElementById('prev').onclick=()=>show(i-1);
+document.getElementById('next').onclick=()=>show(i+1);
+document.getElementById('nbtn').onclick=()=>nt.classList.toggle('on');
+addEventListener('keydown',e=>{if(['ArrowRight','PageDown',' '].includes(e.key)){show(i+1);e.preventDefault()}
+ if(['ArrowLeft','PageUp'].includes(e.key))show(i-1);if(e.key==='n'||e.key==='N')nt.classList.toggle('on');
+ if(e.key==='Home')show(0);if(e.key==='End')show(S.length-1)});
+let x0=null;addEventListener('touchstart',e=>{x0=e.touches[0].clientX},{passive:true});
+addEventListener('touchend',e=>{if(x0===null)return;const d=e.changedTouches[0].clientX-x0;
+ if(Math.abs(d)>40)show(i+(d<0?1:-1));x0=null});
+addEventListener('resize',fit);fit();show((parseInt(location.hash.slice(1))||1)-1);
+</script></body></html>

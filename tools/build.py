@@ -267,7 +267,7 @@ gift_list = f"""<!doctype html><html lang="en"><head>{HEAD}<title>Gift List · {
 <nav class="jump">{''.join(f'<a href="#{p["id"]}">{E(p["name"])}</a>' for p in real)}</nav>
 <p class="rule">Prices as of {", ".join(date_text(a) for a in asof)}; they'll move with holiday sales. Slide # opens the matching slide in that person's deck. To keep surprises, tell the listed person before you buy, never the recipient.</p>
 {''.join(person_block(p) for p in real)}
-{f'<section class="person placeholders"><div class="ph"><h2>Still to come</h2></div><p class="empty">{len(pending)} more lists will appear here as their decks arrive.</p></section>' if pending else ''}
+{f'<section class="person placeholders"><div class="ph"><h2>Still to come</h2></div><p class="empty">{len(pending)} more {"list" if len(pending)==1 else "lists"} will appear here as their decks arrive.</p></section>' if pending else ''}
 <footer>Updated {date_text(DATA['updated'])}. Built from data/gifts.json by tools/build.py.</footer>
 </main></body></html>"""
 (ROOT / "gift-list.html").write_text(gift_list)
