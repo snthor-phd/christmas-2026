@@ -1228,9 +1228,164 @@
       ]
     },
     {
-      "id": "person7",
-      "name": "Coming soon",
-      "placeholder": true
+      "id": "grace",
+      "name": "Grace",
+      "deck": "decks/grace/",
+      "theme": "Whimsical",
+      "coordinator": "Dad",
+      "prices_as_of": "2026-11-25",
+      "source": "Canva",
+      "note": "Her deck shows her own price tags; the price here is the current one from her link on Nov 25. Clothing sizes aren't in the deck, so check with the coordinator.",
+      "gifts": [
+        {
+          "slide": 2,
+          "gift": "Mushroom Girl figure",
+          "detail": "1/12 BJD doll, Mushroom series, single blind box (design is random); her tag said $25",
+          "price": 32.9,
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0GN8XG1YK"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "gift": "Candle warming lamp",
+          "detail": "Eayaya green flower lamp, glass tulip shade, timer and dimmer; her tag said $24",
+          "price": 26.98,
+          "price_text": "$26.98 (list $39.98)",
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0HH8WQW2R"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "gift": "Luna moth plush",
+          "detail": "Lifelike 11-in luna moth stuffed animal; her tag said $23",
+          "price": 18.39,
+          "price_text": "$18.39 (list $22.98)",
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0D6YJR88R"
+            }
+          ]
+        },
+        {
+          "slide": 2,
+          "gift": "Macramé plushie net",
+          "detail": "Hanging stuffed-animal hammock with LED light; her tag said $10",
+          "price": 9.49,
+          "price_text": "$9.49 (list $12.99)",
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B09YD77W8W"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Moonlighter 2: The Endless Vault",
+          "detail": "Nintendo Switch 2, physical copy (pictured); her tag said $50",
+          "price": 49.99,
+          "links": [
+            {
+              "label": "GameStop",
+              "url": "https://www.gamestop.com/products/moonlighter-2-the-endless-vault/450482.html"
+            }
+          ],
+          "note": "Showed out of stock at GameStop on Nov 25."
+        },
+        {
+          "slide": 3,
+          "gift": "First Giants (board game)",
+          "detail": "Matthew Dunstan and Brett J. Gilbert; price from her slide",
+          "price": 30,
+          "links": [
+            {
+              "label": "BoardGameGeek",
+              "url": "https://boardgamegeek.com/boardgame/462464/first-giants"
+            }
+          ]
+        },
+        {
+          "slide": 3,
+          "gift": "Wizard Community College (game)",
+          "detail": "Dryad Games; price from her slide",
+          "price": 20,
+          "links": [
+            {
+              "label": "Dryad Games",
+              "url": "https://dryad-games.com/shop/wizard-community-college/"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "gift": "Face glitter",
+          "detail": "Unicorn Snot Antimatter color-shifting glitter paste, purple to blue",
+          "price": 23.99,
+          "links": [
+            {
+              "label": "Amazon",
+              "url": "https://www.amazon.com/dp/B0G24HGJYB"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "gift": "Fancy cotton sheets",
+          "detail": "Same as Marissa's: Nordstrom at Home percale, Grey Vapor, queen (her slide points to Marissa's link)",
+          "price": 59.97,
+          "links": [
+            {
+              "label": "Nordstrom Rack",
+              "url": "https://www.nordstromrack.com/s/nordstrom-at-home-percale-sheet-set/5358294?color=grey+vapor&size=queen"
+            }
+          ]
+        },
+        {
+          "slide": 4,
+          "gift": "Beware of Chicken books",
+          "detail": "Casualfarmer's series in paperback (books 1–3 pictured); about $20 each",
+          "price": 19.99,
+          "price_text": "~$20 each",
+          "links": [
+            {
+              "label": "Amazon (series)",
+              "url": "https://www.amazon.com/dp/B0BPX1DX87"
+            }
+          ],
+          "note": "Her link is the Kindle series page; she asks for physical books."
+        },
+        {
+          "slide": 5,
+          "gift": "Mochipan clothing",
+          "detail": "Cottage-style dresses and tops (three pictured); no link or price",
+          "price": null,
+          "links": []
+        },
+        {
+          "slide": 6,
+          "gift": "Nyahallo clothing and bags",
+          "detail": "Star-print dress, bird hoodie, leaf backpack (pictured); no link or price",
+          "price": null,
+          "links": []
+        }
+      ],
+      "extras_title": "Also welcome",
+      "extras": [
+        {
+          "slide": 2,
+          "group": "Theme",
+          "gift": "Whimsical fairy gifts in general"
+        }
+      ]
     }
   ]
 }
